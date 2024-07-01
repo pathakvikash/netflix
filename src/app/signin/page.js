@@ -68,7 +68,8 @@ function SignInForm() {
           <button className=' text-white py-2 px-2'>Sign up now</button>
         </div>
         <p className='text-xs text-gray-400 mt-2'>
-          This page is protected by Google reCAPTCHA to ensure you're not a bot.
+          This page is protected by Google reCAPTCHA to ensure you&apos;re not a
+          bot.
           <a className='underline text-blue-700 px-2' href='#'>
             Learn more
           </a>

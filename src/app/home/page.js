@@ -5,7 +5,7 @@ import Slider from '@/components/small/Slider';
 import { homedata, horrordata, trendingNow, comedy } from '@/constant/data';
 import MoreInfo from '@/components/MoreInfo';
 import TopTen from '@/components/cards/TopTen';
-const page = () => {
+const Page = () => {
   const [showMoreInfo, setShowMoreInfo] = useState(false);
   function handleMoreInfo() {
     setShowMoreInfo(!showMoreInfo);
@@ -52,4 +52,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
